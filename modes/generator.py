@@ -18,9 +18,9 @@ def add():
     from requests import get
 
     db = mysql.connector.connect(
-        host = "192.168.178.57",
-        user = "pw",
-        passwd = "password",
+        host = "localhost",
+        user = "<yourusername>",
+        passwd = "<password>",
         database = "pwmanager"
     )
 
